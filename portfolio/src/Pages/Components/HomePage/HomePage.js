@@ -12,7 +12,7 @@ const HomePage = ({
     <Page
       active={active}
       header={
-        <div>
+        <div  className="homepage__header">
           <Avatar />
           <TagLine />
         </div>

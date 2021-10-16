@@ -18,7 +18,7 @@ const ServicesPage = ({
       <div className="services">
         <div className="serviceItem">
           <div className="serviceItem__imageContainer">
-            <img alt="HTML5" src="./assets/html5.png" className="serviceItem__image"></img>
+            <img alt="HTML5" src="./assets/html.png" className="serviceItem__image"></img>
           </div>
           <h4 className="serviceItem__name">HTML5</h4>
           <div className="serviceItem__description">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.</div>
