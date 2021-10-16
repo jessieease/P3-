@@ -1,5 +1,8 @@
 import Page from '../../../Page/Page';
 import AboutMe from './Components/AboutMe/AboutMe';
+import Avatar from './Components/Avatar/Avatar';
+import ContactTable from './Components/ContactTable/ContactTable';
+import TagLine from './Components/TagLine/TagLine';
 import './HomePage.css';
 
 const HomePage = ({
@@ -10,14 +13,15 @@ const HomePage = ({
       active={active}
       header={
         <div>
-          <AboutMe />
+          <Avatar />
+          <TagLine />
         </div>
       }
     >
       <div className="homepage__content">
-        content here
+        <AboutMe />
+        <ContactTable />
       </div>
-
     </Page>
   </div>
 );

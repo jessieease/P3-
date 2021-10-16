@@ -16,7 +16,6 @@ const Page =({
     <div className={className}>
       <div className="page__header">
         {header ? header : (<h2 className="page__title">{title}</h2>)}
-        {/* {header} */}
       </div>
       <div className="page__content">
         {children}

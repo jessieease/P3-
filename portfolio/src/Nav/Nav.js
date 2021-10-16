@@ -2,13 +2,16 @@ import Logo from './Components/Logo/Logo';
 import NavBar from './Components/NavBar/NavBar';
 import './Nav.css';
 
-const Nav = () => (
+const Nav = ({
+  currentPage,
+  changePage
+}) => (
     <header className="nav">
         <div className="nav__left">
           <Logo />
         </div>
         <div className="nav__right">
-          <NavBar />
+          <NavBar currentPage={currentPage} changePage={changePage} />
         </div>
   </header>
 );

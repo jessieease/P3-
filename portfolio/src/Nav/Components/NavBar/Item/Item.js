@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './Item.css';
 
 const Item = ({
     active,
-    href,
+    onClick,
     children,
 }) => {
     let className = 'navbar__item';
@@ -10,9 +11,17 @@ const Item = ({
     if (active) {
       className += ' navbar__item--active';
     }
-  
+
     return (
-      <a className={className} href={href}>{children}</a>
+      <a
+        onClick={(event) => {
+          event.preventDefault();
+          onClick();
+        }} 
+        className={className}
+      > 
+        {children}
+      </a>
     );
   };
 
