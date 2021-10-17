@@ -1,5 +1,10 @@
 import Page from '../../../Page/Page';
 import PageTitle from '../../../PageTitle/PageTitle';
+import docker from '../../../assets/docker.png';
+import kubernetes from '../../../assets/kubernetes.png';
+import frontend from '../../../assets/frontend.png';
+import backend from '../../../assets/backend.png';
+import cloud from '../../../assets/cloud.png';
 import './ServicesPage.css';
 
 const ServicesPage = ({
@@ -13,40 +18,42 @@ const ServicesPage = ({
     <div className="servicesPage__services">
       <h3 className="services__title">
         My
-        <span className="services__titleHightLight">Services</span>
+        <span className="services__titleHightLight">Skills Set</span>
       </h3>
       <div className="services">
         <div className="serviceItem">
           <div className="serviceItem__imageContainer">
-            <img alt="HTML5" src="./assets/html.png" className="serviceItem__image"></img>
+            <img alt="Front end" src={frontend} className="serviceItem__image"></img>
           </div>
-          <h4 className="serviceItem__name">HTML5</h4>
-          <div className="serviceItem__description">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.</div>
+          <h4 className="serviceItem__name">Front End</h4>
+          <div className="serviceItem__description">
+            HTML5, CSS3, styled-components, styled-system, JavaScript(Vanilla/ES6), Bootstrap, FlexBox, TypeScript, ReactJS(NextJS), Responsive web design, RESTful API, JWT
+          </div>
         </div>
         <div className="serviceItem">
           <div className="serviceItem__imageContainer">
-            <img alt="CSS3" src="./assets/css3.png" className="serviceItem__image"></img>
+            <img alt="Backend" src={backend} className="serviceItem__image"></img>
           </div>
-          <h4 className="serviceItem__name">CSS3</h4>
-          <div className="serviceItem__description">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</div>
+          <h4 className="serviceItem__name">Back End</h4>
+          <div className="serviceItem__description">
+            NodeJS, Java Spring Boot and Spring Security, SQL include MySQL, PostgreSQL, NoSQL include MangoDB</div>
         </div>
         <div className="serviceItem">
           <div className="serviceItem__imageContainer">
-            <img alt="JavaScript" src="./assets/js.png" className="serviceItem__image"></img>
+            <img alt="Cloud Service" src={cloud} className="serviceItem__image"></img>
           </div>
-          <h4 className="serviceItem__name">JavaScript</h4>
-          <div className="serviceItem__description">JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.</div>
+          <h4 className="serviceItem__name">Cloud Services</h4>
+          <div className="serviceItem__description">AWS EC2, AWS S3, AWS Lambda, AWS Api Gateway, AWS DynamoDB</div>
         </div>
       </div>
     </div>
     <div className="servicesPage__clients">
       <h3 className="services__title">
-        Clients
+        DevOps Tools
       </h3>
       <div className="clients">
-        <img alt="REA Group" src="./assets/rea.png" className="clientItem"></img>
-        <img alt="carsales.com.au" src="./assets/carsales.svg" className="clientItem"></img>
-        <img alt="Seek" src="./assets/seek.png" className="clientItem"></img>
+        <img alt="Docker" src={docker} className="clientItem"></img>
+        <img alt="Kubernetes" src={kubernetes} className="clientItem"></img>
       </div>
     </div>
   </Page>

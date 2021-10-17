@@ -6,7 +6,7 @@ const Timeline = ({
       key,
       title,
       year,
-      company,
+      address,
       description,
     }) => (
       <div className="timeline" key={key}>
@@ -16,7 +16,7 @@ const Timeline = ({
           &nbsp;
           <i className="experience__divider"></i>
           &nbsp;
-          <span className="experience__company">{company}</span>
+          <span className="experience__address">{address}</span>
         </div>
         <div className="experience__description">
           {description}

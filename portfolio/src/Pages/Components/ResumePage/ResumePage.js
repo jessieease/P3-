@@ -13,37 +13,37 @@ const ResumePage = ({
     header={<PageTitle>Resume</PageTitle>}
   >
     <div className="resumePage__sub">
-      <Education />
       <Experience />
+      <Education />
     </div>
     <div className="resumePage__sub">
       <div>
         <h3 className="resumeSub__title">Design <span className="resumeSub__titleHighlight">Skills</span></h3>
         <div className="skill">
+          <h4 className="skill__title">API Design</h4>
+          <div className="skill__level skill__level--apiDesign"></div>
+        </div>
+        <div className="skill">
           <h4 className="skill__title">Web Design</h4>
           <div className="skill__level skill__level--webDesign"></div>
         </div>
         <div className="skill">
-          <h4 className="skill__title">Graphic Design</h4>
-          <div className="skill__level skill__level--graphicDesign"></div>
-        </div>
-        <div className="skill">
-          <h4 className="skill__title">Print Design</h4>
-          <div className="skill__level skill__level--printDesign"></div>
+          <h4 className="skill__title">Database Design</h4>
+          <div className="skill__level skill__level--databaseDesign"></div>
         </div>
       </div>
       <div>
         <h3 className="resumeSub__title">Coding <span className="resumeSub__titleHighlight">Skills</span></h3>
         <div className="skill">
-          <h4 className="skill__title">HTML Design</h4>
+          <h4 className="skill__title">HTML</h4>
           <div className="skill__level skill__level--htmlDesign"></div>
         </div>
         <div className="skill">
-          <h4 className="skill__title">CSS Design</h4>
+          <h4 className="skill__title">CSS</h4>
           <div className="skill__level skill__level--cssDesign"></div>
         </div>
         <div className="skill">
-          <h4 className="skill__title">JavaScript Design</h4>
+          <h4 className="skill__title">JavaScript</h4>
           <div className="skill__level skill__level--jsDesign"></div>
         </div>
       </div>

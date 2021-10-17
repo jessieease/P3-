@@ -4,7 +4,7 @@ import './TagLine.css';
 const TagLine = () => (
   <div className="homepage__title">
     <h2 className="homepage__name">Hello, I'm Jessie</h2>
-    <div className="homepage__position">I am a web developer</div>
+    <div className="homepage__position">Explore my Blog</div>
     <div className="homepage__socialMedias">
       <SocialMedia iconName="twitter" />
       <SocialMedia iconName="facebook-f" />

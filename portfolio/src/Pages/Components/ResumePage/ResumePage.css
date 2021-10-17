@@ -68,7 +68,7 @@
     border-right: 1px solid #dadada;
   }
   
-  .experience__company {
+  .experience__address {
     color: #49515d;
   }
   
@@ -108,15 +108,15 @@
     background-color: #ffb703;
   }
   
-  .skill__level--webDesign:after {
+  .skill__level--apiDesign:after {
     width: 80%;
   }
   
-  .skill__level--graphicDesign:after {
+  .skill__level--webDesign:after {
     width: 70%;
   }
   
-  .skill__level--printDesign:after {
+  .skill__level--databaseDesign:after {
     width: 75%;
   }
   
