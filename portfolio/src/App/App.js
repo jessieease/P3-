@@ -24,7 +24,7 @@ class App extends React.Component {
     const { currentPage } = this.state;
 
     return (
-      <div className="App">
+      <div className="app">
       <header className="container">
         <div>
           <Nav
